@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- JAVA와 연결할 Mapper 파일 설정 -->
+<mapper namespace="poly.persistance.mapper.INoticeMapper">
+
+<select id="getNoticeList" parameterType="NoticeDTO" resultType="NoticeDTO">
+SELECT * FROM NOTICE_INFO
+</select>
+<insert id="doNoticeForm" parameterType="NoticeDTO">
+INSERT INTO NOTICE_INFO(
+	
+	REG_ID,
+	POST_TITLE,
+	POST_CONTENT
+	
+	
+)VALUES(
+	
+	#{reg_id},
+	#{post_title},
+	#{post_content}
+	
+)
+</insert>
+
+<select id="getNoticeDetail" parameterType="NoticeDTO" resultType="NoticeDTO">
+SELECT
+	POST_NO,
+	POST_TITLE,
+	POST_CONTENT,
+	REG_ID
+FROM
+	NOTICE_INFO
+WHERE
+	POST_NO = #{post_no}
+</select>
+
+<update id="updateNotice" parameterType="NoticeDTO">
+UPDATE NOTICE_INFO
+SET
+	POST_TITLE = #{post_title},
+	POST_CONTENT = #{post_content}
+WHERE
+	POST_TITLE = #{post_title}
+</update>
+
+<delete id="doDeleteNotice" parameterType="NoticeDTO">
+DELETE FROM NOTICE_INFO
+WHERE
+	POST_NO = #{post_no}
+</delete>
+
+</mapper>
