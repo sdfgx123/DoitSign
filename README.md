@@ -3,12 +3,14 @@
 This project is for submitting 2020 "PAAS-TA Web Application Contest".
 <br>
 Spring based sign language translation Web Application
-<br>
+<br><br>
 
 ## Stack
 * Language : Java Spring Framework
 * Datebase : MySQL
 * Others : Google Teachable
+
+<br><br>
 
 ## About Development and Role
 * Period : 2020.08 ~ 2020.12
