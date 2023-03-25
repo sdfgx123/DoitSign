@@ -9,3 +9,7 @@ Spring based sign language translation Web Application
 * Language : Java Spring Framework
 * Datebase : MySQL
 * Others : Google Teachable
+
+## About Development and Role
+* Period : 2020.08 ~ 2020.12
+* Role : Back-end(Login Service, DB, CRUD)
