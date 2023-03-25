@@ -10,7 +10,7 @@ Spring based sign language translation Web Application
 * Datebase : MySQL
 * Others : Google Teachable
 
-<br><br>
+<br>
 
 ## About Development and Role
 * Period : 2020.08 ~ 2020.12
