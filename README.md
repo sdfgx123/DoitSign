@@ -1,5 +1,11 @@
 # DoitSign
 
 This project is for submitting 2020 "PAAS-TA Web Application Contest".
+<br>
+Spring based sign language translation Web Application
+<br>
 
-스프링 기반의 수어 번역 웹애플리케이션
+## Stack
+* Language : Java Spring Framework
+* Datebase : MySQL
+* Others : Google Teachable
