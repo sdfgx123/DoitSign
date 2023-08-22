@@ -5,6 +5,7 @@
 * 2020 PAAS-TA 웹애플리케이션 공모전 출품작
 * 개발 기간 : 2020.08 ~ 2020.12
 * 팀원 | 수어 모델링, 로그인 서비스, CRUD, DB 관리 담당
+* 시연 동영상 : [![Video Label](http://img.youtube.com/vi/XY6R1TdUErs/0.jpg)](https://youtu.be/XY6R1TdUErs=0s)
 
 ## 기술 스택
 * Java 8, Spring Framework, Tomcat, Maven
