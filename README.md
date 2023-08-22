@@ -1,4 +1,4 @@
-<img width="568" alt="image" src="https://github.com/sdfgx123/Bookeeper/assets/64997246/c48abc7e-de30-429a-9dc2-049a6dba39cb">
+<img width="100%" alt="image" src="https://github.com/sdfgx123/Bookeeper/assets/64997246/c48abc7e-de30-429a-9dc2-049a6dba39cb">
 
 # DoitSign
 * 스프링 기반의 실시간 수어 번역 웹애플리케이션
