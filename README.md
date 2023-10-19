@@ -19,4 +19,5 @@
 ## 산출물
 
 ### 프로젝트 아키텍처
+<img width="792" alt="image" src="https://github.com/sdfgx123/DoitSign/assets/64997246/84c1dc7b-2419-468d-8f18-1ad6859ea458">
 
